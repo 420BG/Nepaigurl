@@ -11,11 +11,16 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to AI Girlfriend Chat</h1>
-        <div id="auth-section">
+        <h1>AI Girlfriend Chat</h1>
+
+        <!-- Settings Button -->
+        <button id="settings-btn">⚙️ Settings</button>
+        <div id="settings-menu" style="display: none;">
             <button id="google-signin">Sign in with Google</button>
         </div>
-        <div id="chat-section" style="display:none;">
+
+        <!-- Chatbox (Always Visible) -->
+        <div id="chat-section">
             <div id="chat-box"></div>
             <input type="text" id="user-input" placeholder="Type a message...">
             <button id="send-btn">Send</button>
